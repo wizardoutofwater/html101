@@ -1,1 +1,1 @@
-html101
+In-Class and Homework Excercises for #DigitalCrafts HTML 101
