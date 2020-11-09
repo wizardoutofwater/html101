@@ -1,0 +1,92 @@
+<!-- HTML 101 Excercise 3 -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Order a Pizza</title>
+  </head>
+  <body>
+    
+<h1>Lets Order a Pizza!</h1>
+
+<div>
+
+<form>
+    <fieldset>
+        <legend>What type of Crust would you like?</legend>
+        <p>
+          <label>
+            <input type="radio" id="handTossed" name="crust" value="handTossed" checked /> Hand-Tossed
+          </label>
+        </p>
+        <p>
+          <label> <input type="radio" id="thin" name="crust" value="thin" /> Thin </label>
+        </p>
+         <p>
+          <label> <input type="radio" id="deepDish" name="crust" value="deepDish" /> Deep Dish </label>
+        </p>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>
+          What Toppings Would You Like? (Choose Three)
+        </legend>
+        <p>
+          <label> <input type="checkbox" checked /> Cheese </label>
+        </p>
+        <p>
+          <label> <input type="checkbox" /> Pepperoni </label>
+        </p>
+        <p>
+          <label> <input type="checkbox" /> Sausage </label>
+        </p>
+        <p>
+          <label> <input type="checkbox" /> Olives </label>
+        </p>
+        <p>
+          <label> <input type="checkbox" /> Mushrooms </label>
+        </p>
+    </fieldset>
+
+    <br>
+    <fieldset>
+        <label for="orderType"> Will this be Delivery or Carryout? </label>
+        <select name="location" id="orderType">
+          <option value="" disabled selected>--Please choose an option--</option>
+          <option value="Delivery">Delivery</option>
+          <option value="carryOut">Carry Out</option>
+        </select>
+      </fieldset>
+    <br>
+      <fieldset>
+        <legend>Customer Information</legend>
+        <p>
+          <label for="first-name"> First Name </label>
+          <input type="text" name="first-name" id="first-name" />
+        </p>
+        <p>
+          <label for="last-name"> Last Name </label>
+          <input type="text" name="Last-name" id="Last-name" />
+        </p>
+        <p>
+          <label for="address"> Address (If Delivery) </label>
+          <input type="text" name="address" id="address" />
+        </p>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Any additional instructions?</legend>
+        <textarea name="textarea"
+            rows="5" cols="30"
+            maxlength="180">180 characters max</textarea>
+
+        </p>
+      </fieldset>
+
+      <br>
+      <input type="submit" id="submit-button" value="submit" />
+</form>
+</div>
+</body>
+</html>
