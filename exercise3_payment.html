@@ -1,0 +1,43 @@
+<!-- HTML 101 Excercise 3  - Credit Card Payment Form -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Payment Info</title>
+  </head>
+  <body>
+    
+<h1>Pizza Payment Portal</h1>
+
+<fieldset>
+    <legend>Customer Information</legend>
+    <p>
+      <label for="fullName"> Name </label>
+      <input type="text" name="fullName" id="fullName" />
+    </p>
+    <p>
+      <label for="tel">Phone</label>
+      <input type="tel" name="tel" id="tel" autocorrect="off" autocomplete="tel" placeholder="555 555 5555"></p>
+    <p>
+      <label for="email"> Email </label>
+      <input type="email" name="email" id="email"  autocapitalize="off" autocorrect="off" autocomplete="email" placeholder="janedoe@example.com">
+    </p>
+  </fieldset>
+<br>
+<fieldset>
+    <legend>Card Information</legend>
+    <p>
+      <label for= "cardNumber"> Card Number </label>
+      <input type="text" name="cardNumber" id="cardNumber" />
+    </p>
+    <p>
+      <label for="expDate"> Expiration </label>
+      <input type="date" name="expDate" id="expDate" />
+    </p>
+    <p>
+      <label for="cvvNumber"> CVV/Security Code </label>
+      <input type="number" name="cvvNumber" id="cvvNumber" placeholder="3 or 4 digits">
+    </p>
+  </fieldset>
+</body>
+</html>
